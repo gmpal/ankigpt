@@ -1,0 +1,15 @@
+name: anki-gpt-deckgen
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.9
+  - requests
+  - numpy
+  - pandas
+  - genanki # For creating Anki decks
+  - flask  # For web interface
+  - pytest  # For testing
+  - pip
+  - pip:
+    - openai  # If you're using the OpenAI API
