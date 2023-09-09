@@ -1,5 +1,5 @@
 # ankigpt
-Automatically generate com1prehensive Anki flashcard decks on any topic using the power of chatGPT. Turn a simple topic into a rich learning experience with AI-driven content.
+Automatically generate comprehensive Anki flashcard decks on any topic using the power of chatGPT. Turn a simple topic into a rich learning experience with AI-driven content.
 
 ### Prerequisites:
 - Install the `genanki` and `openai` Python packages. You can do this using pip:
