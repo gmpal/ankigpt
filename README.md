@@ -51,3 +51,31 @@ You will find an Anki deck file named `pizza_deck.apkg` (or whatever topic you c
 
 
 ![example](example.png)
+
+
+# YouTube Transcript to Anki Deck
+
+This script automatically converts a YouTube video's transcript into an Anki deck of questions and answers using GPT-4.
+
+## Prerequisites
+
+- You need to have the `genanki`, `openai`, and `youtube_transcript_api` Python packages installed.
+- An OpenAI API key is required to access the GPT-4 model.
+
+## How to Use
+
+1. Run the script.
+
+2. When prompted, enter the URL of the YouTube video you want to download subtitles for.
+
+3. Enter the language of the subtitles you wish to download (e.g., `en` for English, `fr` for French, etc.)
+
+4. Enter the desired language of the Anki cards (e.g., `en` for English).
+
+5. Specify the number of cards you want to create.
+
+6. Provide your OpenAI API key when prompted.
+
+7. Wait for a moment. Once the process is completed, the script will generate an Anki deck `.apkg` file named after the video's ID.
+
+8. You can then import this `.apkg` file into Anki.
